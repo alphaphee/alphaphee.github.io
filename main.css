@@ -64,10 +64,10 @@ a {
 
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     h2{
-        font-size: 0.85rem;
+        font-size: 1.25rem;
     }
     img {
         width: 300px;
@@ -75,16 +75,16 @@ a {
     p {
         color: #4D5168;
         margin: 1.25rem 0 0 0;
-        font-size: 0.6rem;
+        font-size: 1rem;
         font-family: 'Space Mono', monospace;
     }
     #resume { 
         font-family: 'Space Mono', monospace;
         color: #2B5FE0;
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
     a {
-        font-size: 0.7rem;
-        margin: 0.5rem;
+        font-size: 1rem;
+        margin: 0.75rem;
     }
 }
