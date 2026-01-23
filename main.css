@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background-color: #F9F0F8;
+    background-color: #FAF9F9;
     font-size: 1rem;
     line-height: 1.5;
     margin: 0;
@@ -18,19 +18,21 @@ main {
 }
 
 h1 {
+    font-family: 'Parkinsans', sans-serif;
+    font-weight: 600;
     font-size: 2rem;
     line-height: 1.1rem;
     margin-bottom: 0.55rem;
-    font-family: 'DM Sans', sans-serif;
     color: #393442;
     opacity: 0,5;
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.625rem;
     line-height: 1.1;
     margin-bottom: 2.5rem;
-    font-family: 'Space Mono', monospace;
+    font-family: 'IBM Plex Sans', monospace;
+    font-weight: 300;
     color: #696278;
     opacity: 0,5;
 }
@@ -38,11 +40,11 @@ h2 {
 p {
     color: #4D5168;
     margin: 1.25rem 0 0 0;
-    font-family: 'Space Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 a#resume {
-    font-family: 'Space Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     color: #2B5FE0;
     margin-bottom: 1rem;
 }
@@ -53,8 +55,14 @@ a#resume {
     color: #696278;
 }
 
+.contact {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #696278;
+}
+
 a {
-    font-family: 'Space Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     color: #2B5FE0;
     font-size: 1rem;
     margin: 0.75rem;
@@ -76,10 +84,10 @@ a {
         color: #4D5168;
         margin: 1.25rem 0 0 0;
         font-size: 1rem;
-        font-family: 'Space Mono', monospace;
+        font-family: 'IBM Plex Sans', monospace;
     }
     #resume { 
-        font-family: 'Space Mono', monospace;
+        font-family: 'IBM Plex Sans', monospace;
         color: #2B5FE0;
         font-size: 1rem;
     }
@@ -87,4 +95,10 @@ a {
         font-size: 1rem;
         margin: 0.75rem;
     }
+}
+
+svg {
+  fill: #393442;       /* Changes the interior color */
+  stroke: #000000;     /* Changes the outline color */
+  stroke-width: 0px;   /* Changes outline thickness */
 }
